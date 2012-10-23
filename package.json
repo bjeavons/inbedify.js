@@ -1,29 +1,14 @@
 {
-  "author": "Ben Jeavons <jeavons@gmail.com>",
-  "name": "InBedify",
-  "description": "Add in bed to any website",
-  "version": "0.1.0",
-  "repository": {
-    "url": ""
-  },
-  "main": "server.js",
-  "engines": {
-    "node": "~0.8.1"
-  },
-  "dependencies": {
-    "url": "*",
-    "util": "*",
-    "fs": "*",
-    "request": "*",
-    "jsdom": "*",
-    "winston": "*",
-    "contextify": "*",
-    "bindings": "*",
-    
-  },
-  "devDependencies": {},
-  "subdomain": "inbedify",
+  "name": "Inbedify",
   "scripts": {
     "start": "server.js"
+  },
+  "version": "0.2.0-4",
+  "engines": {
+    "node": "v0.8.x"
+  },
+  "subdomain": "inbedify",
+  "dependencies": {
+    "winston": "0.6.x"
   }
 }
